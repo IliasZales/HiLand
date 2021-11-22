@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-import {Helmet} from "react-helmet";
+import { Helmet } from "react-helmet";
 import Layout from "../components/layout/Layout"
 import Seo from "../components/seo/Seo"
 import Clouds from "@components/clouds/Clouds"
@@ -36,15 +36,14 @@ const IndexPage = ({
   },
 }: IIndexProps): JSX.Element => {
   return (
-    
+
     <><Helmet>
-     <link rel="preconnect" href="https://app.snipcart.com" />
-<link rel="preconnect" href="https://cdn.snipcart.com" />
-<link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.css" />
-    </Helmet>
-      <Layout>
+      <link rel="preconnect" href="https://app.snipcart.com" />
+      <link rel="preconnect" href="https://cdn.snipcart.com" />
+      <link rel="stylesheet" href="https://cdn.snipcart.com/themes/v3.0.21/default/snipcart.css" />
+    </Helmet><Layout>
         <Clouds></Clouds>
-        <AddTree Snipcart ></AddTree>
+        <AddTree></AddTree>
         <Landscape></Landscape>
         <p>
 
