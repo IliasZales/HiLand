@@ -21,7 +21,7 @@ const AddTree = ({ }: IState) => {
   const Snipcart = (window as any).Snipcart;
   document.addEventListener('snipcart.ready', async () => {
     console.log('start');
-
+    //new 
     console.log(Snipcart.api.cart);
 
   });
