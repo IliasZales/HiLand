@@ -31,8 +31,7 @@ const AddTree = ({ }: IState) => {
   });
   function removeTree() {
 
-    Snipcart.api.cart.get().items[0].quantity
-      ;
+    Snipcart.api.cart.get().items[0].quantity;
 
   }
 
